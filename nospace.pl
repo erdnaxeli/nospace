@@ -13,6 +13,7 @@ use strict;
 
 sub block
 {
+    my $msg = $_[1];
     Irssi::signal_stop() if ($msg =~ /^\s/);
 }
 
